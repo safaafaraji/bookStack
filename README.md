@@ -1,4 +1,4 @@
-# 📚 BookStack - Blog de Livres Moderne
+#  BookStack - Blog de Livres Moderne
 
 Bienvenue sur **BookStack**, une plateforme web moderne et élégante pour découvrir, filtrer et partager des avis sur vos lectures préférées. Ce projet a été réalisé dans le cadre du **TP Architecture N-tier**.
 
