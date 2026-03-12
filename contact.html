@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - BookStack</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ① MODERN NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <div class="brand-logo-wrapper">
+                    <div class="brand-logo-bg"></div>
+                    <svg width="32" height="32" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M28 14 L28 42" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M12 12 Q20 10 28 14 L28 42 Q20 38 12 40 Z" fill="rgba(255,255,255,0.3)" stroke="white" stroke-width="2"/>
+                        <path d="M44 12 Q36 10 28 14 L28 42 Q36 38 44 40 Z" fill="rgba(255,255,255,0.2)" stroke="white" stroke-width="2"/>
+                    </svg>
+                </div>
+                BookStack
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Catalogue</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À Propos</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <a href="#" class="btn btn-primary btn-sm rounded-pill px-4">S'abonner</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Spacer -->
+    <div style="height: 100px;"></div>
+
+    <main class="container my-5">
+        <div class="row g-5 align-items-stretch">
+            <!-- Info Column -->
+            <div class="col-lg-5">
+                <div class="contact-info-card shadow-lg">
+                    <h2 class="display-5 fw-bold mb-4">Parlons Littérature.</h2>
+                    <p class="opacity-75 mb-5 fs-5">
+                        Une question sur un livre ? Une idée de partenariat ? Ou simplement envie de dire bonjour ? Notre équipe est à votre écoute.
+                    </p>
+
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <div class="icon-box mb-0 bg-white bg-opacity-10 border border-white border-opacity-10" style="width: 50px; height: 50px;">
+                            <i class="bi bi-geo-alt text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Notre Siège</h6>
+                            <p class="small opacity-75 mb-0">123 Avenue des Livres, 75001 Paris</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-4 mb-4">
+                        <div class="icon-box mb-0 bg-white bg-opacity-10 border border-white border-opacity-10" style="width: 50px; height: 50px;">
+                            <i class="bi bi-envelope text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Email</h6>
+                            <p class="small opacity-75 mb-0">hello@bookstack.com</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-4 mb-5">
+                        <div class="icon-box mb-0 bg-white bg-opacity-10 border border-white border-opacity-10" style="width: 50px; height: 50px;">
+                            <i class="bi bi-telephone text-primary"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-0 fw-bold">Téléphone</h6>
+                            <p class="small opacity-75 mb-0">+33 (0)1 23 45 67 89</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-auto">
+                        <h6 class="mb-3 fw-bold">Suivez l'aventure :</h6>
+                        <div class="fs-3 d-flex gap-3">
+                            <a href="#" class="text-white opacity-50 opacity-100-hover transition-all"><i class="bi bi-facebook"></i></a>
+                            <a href="#" class="text-white opacity-50 opacity-100-hover transition-all"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#" class="text-white opacity-50 opacity-100-hover transition-all"><i class="bi bi-instagram"></i></a>
+                            <a href="#" class="text-white opacity-50 opacity-100-hover transition-all"><i class="bi bi-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Form Column -->
+            <div class="col-lg-7">
+                <div class="contact-form-card shadow-sm h-100">
+                    <h3 class="fw-bold mb-4 text-dark">Envoyez un message</h3>
+                    <form id="contact-form">
+                        <div class="row g-3 mb-4">
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-secondary small text-uppercase">Nom Complet</label>
+                                <input type="text" class="form-control form-control-lg border-light bg-light rounded-3" placeholder="Ex: Jean Dupont" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label fw-semibold text-secondary small text-uppercase">Adresse Email</label>
+                                <input type="email" class="form-control form-control-lg border-light bg-light rounded-3" placeholder="Ex: jean@email.com" required>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold text-secondary small text-uppercase">Sujet</label>
+                            <select class="form-select form-select-lg border-light bg-light rounded-3">
+                                <option selected>Question Générale</option>
+                                <option>Sugesstion Littéraire</option>
+                                <option>Problème Technique</option>
+                                <option>Partenariat</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label class="form-label fw-semibold text-secondary small text-uppercase">Votre Message</label>
+                            <textarea class="form-control border-light bg-light rounded-3" rows="6" placeholder="Comment pouvons-nous vous aider ?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100 rounded-pill py-3 shadow-sm fw-bold">
+                            Envoyer le message <i class="bi bi-send-fill ms-2"></i>
+                        </button>
+                    </form>
+                    <div id="contact-feedback" class="mt-4"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="text-white text-center py-5 mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">BookStack</h5>
+                    <p class="text-white-50">La meilleure plateforme pour découvrir et partager vos lectures préférées.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Liens Rapides</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Accueil</a></li>
+                        <li><a href="about.html" class="text-white-50 text-decoration-none">À Propos</a></li>
+                        <li><a href="contact.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold mb-3">Suivez-nous</h5>
+                    <div class="fs-4">
+                        <i class="bi bi-facebook me-3"></i>
+                        <i class="bi bi-twitter-x me-3"></i>
+                        <i class="bi bi-instagram me-3"></i>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 opacity-25">
+            <p class="mb-0 text-white-50">&copy; 2026 Blog de présentation de livres. Réalisé pour le TP Architecture N-tier.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const feedback = document.getElementById('contact-feedback');
+            feedback.innerHTML = `
+                <div class="alert alert-success border-0 shadow-sm rounded-4 py-3 animate-fadeIn">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-check-circle-fill me-3 fs-4"></i>
+                        <div>
+                            <strong>Message envoyé !</strong> Nous vous répondrons dans les plus brefs délais.
+                        </div>
+                    </div>
+                </div>
+            `;
+            this.reset();
+        });
+    </script>
+</body>
+</html>

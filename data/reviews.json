@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "bookId": 1,
+        "user": "Ali",
+        "rating": 5,
+        "comment": "Excellent livre pour comprendre JavaScript."
+    },
+    {
+        "id": 2,
+        "bookId": 1,
+        "user": "Sara",
+        "rating": 4,
+        "comment": "Très bon livre. Facile à suivre pour un débutant."
+    },
+    {
+        "id": 3,
+        "bookId": 2,
+        "user": "Youssef",
+        "rating": 5,
+        "comment": "Le meilleur livre sur HTML et CSS que j'ai pu lire !"
+    }
+]

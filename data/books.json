@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript Guide",
+    "author": "Emily Chen",
+    "image": "images/book1.png",
+    "description": "Le guide ultime pour maîtriser JavaScript moderne. Apprenez les ES6+, les promesses, l'asynchronisme et les meilleures pratiques pour construire des applications robustes.",
+    "rating": 4.9,
+    "category": "Programmation"
+  },
+  {
+    "id": 2,
+    "title": "HTML5 & CSS3 Masterclass",
+    "author": "Elias Thornwood",
+    "image": "images/book2.png",
+    "description": "Devenez un expert du web design avec cette masterclass complète. Apprenez le responsive design, Grid, Flexbox et les micro-animations pour créer des sites web époustouflants.",
+    "rating": 4.8,
+    "category": "Web Design"
+  },
+  {
+    "id": 3,
+    "title": "Bootstrap 5 in Action",
+    "author": "Eliza Reed",
+    "image": "images/book3.png",
+    "description": "Apprenez à utiliser le framework CSS le plus populaire au monde pour créer des interfaces professionnelles rapidement et efficacement.",
+    "rating": 4.7,
+    "category": "Frameworks"
+  },
+  {
+    "id": 4,
+    "title": "Modern Web Design",
+    "author": "Alexa Reed",
+    "image": "images/book4.png",
+    "description": "Explorez les dernières tendances du design web : glassmorphisme, néomorphisme, et l'art de créer des expériences utilisateur inoubliables.",
+    "rating": 5.0,
+    "category": "Design"
+  }
+]
